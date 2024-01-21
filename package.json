@@ -1,0 +1,13 @@
+{
+  "name": "nexplore-to-do-list",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "if-env TYPE=Server && (cd server && npm install) || (cd client && npm install)",
+    "server": "cd server && npm run start",
+    "client": "cd client && npm start"
+  },
+  "dependencies": {
+    "if-env": "^1.0.4"
+  }
+}
