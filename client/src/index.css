@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 241, 249);
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.to-do-list-container {
+    flex: 1 1 0;
+    overflow-y: auto;
+    min-height: 100px;
+}
+
+.app {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px rgba(0, 0, 0, 0.8) 0 0 0 1px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.create-note-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.todo-text {
+    text-decoration: line-through;
+}
+
+.header {}
